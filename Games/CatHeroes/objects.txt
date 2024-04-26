@@ -1,0 +1,43 @@
+NOTE
+a note with seemingly random words written on it.
+1
+
+KEY
+a door key.
+2
+
+UNJAMBLER
+a device that allows you to unjamble random words.
+3
+
+UDisk
+A U disk that can skip one programming question.
+20
+
+DAISY
+A cute stray kitty temporarily adopted by the programmer.
+221
+
+MUSICNOTES
+multiple music notes that may come in useful for a music novice.
+33
+
+MUSICNOTE
+a music note that may come in useful for a music novice.
+34
+
+LUNA
+Another adorable stray cat you rescued.
+37
+
+BOXKEY
+A key for a very special box
+42
+
+MAGNIFIER
+This will help you look at something, more closely
+44
+
+CatTrophy
+The final trophy of the game, in the shape of a cat.
+50

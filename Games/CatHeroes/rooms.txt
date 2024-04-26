@@ -1,0 +1,458 @@
+1
+Outside building
+You are standing at the end of a road before a small brick building.  A small stream flows out of the building and down a gully to the south.  A road runs up a small hill to the west. On a sign, you see a riddle: “I’m the path to heaven, not the road to the core, I’m not where the sun rises, nor where you explore. I’m not the way to the pole, where cold winds blow, So tell me, traveler, which way do you go?”
+-----
+WEST       2
+UP         2
+NORTH      3/KEY
+IN         3/KEY
+SOUTH      7
+DOWN       7
+HINT       8
+
+2
+End of road
+You are at the end of a road at the top of a small hill. You can see a small building in the valley to the east.
+-----
+EAST       1
+WEST       3/KEY
+DOWN       3/KEY
+
+3
+Inside building
+You are inside a building, a well house for a large spring. The exit door is to the south.  There is another room to the north, but the door is barred by a shimmering curtain.
+-----
+SOUTH      1
+OUT        1
+NORTH      4
+XYZZY      1
+PLUGH      2
+PLUGH      1
+
+4
+Curtain
+You are passing through a curtain!
+-----
+FORCED    6/NOTE
+FORCED    6/UNJAMBLER
+FORCED    5
+
+5
+Missing items
+You can pass through this curtain only if you are able to unjamble the note.
+-----
+FORCED     3
+
+6
+Note reading
+You take the time to read the note. It says: "There are cats that need saving!". You move onto the next room.
+-----
+FORCED     20
+
+7
+Nothing here
+You find there is nothing here and decide to turn back.
+-----
+FORCED     1
+
+8
+Hint
+Eliminate all the options from the sign riddle, you should be left with a direction.
+-----
+FORCED     1
+
+20
+Introduction to level 2
+Hey, adventurer! I'm a programmer and have temporarily adopted a stray kitty called Daisy, but I'm so busy with my job that I just don't have the time to take care of her. It would be really great if you could adopt and take care of her! I'm going to give you some little challenges, though. I've created an interesting "secret house" for you, and if you answer all the questions correctly, you'll be able to go through the rooms and finally get to own this cute little kitten! Do you want to give it a try? (Choose A/B plz~) By the way, you can take this U disk near the door. You can use it to skip one question by entering "SKIP" (then you will lose the U disk)!
+A: YES!
+B: No, thanks.
+-----
+A       21
+B       0
+
+21
+Level 2 Inside the 1st room
+Welcome to the secret house! You're now in the first room~ In each room, there will be a question on the computer monitor. Enter your answer to the question to unlock the next room!
+Now, this is the first question! Which statement is true about Java?
+
+I. Java is a sequence-dependent programming language
+II. Java is a code dependent programming language
+III. Java is a platform-dependent programming language
+IV. Java is a platform-independent programming language
+-----
+I       22
+II       22
+III       22
+IV       23
+SKIP       23
+
+22
+Level 2 1st room wrong answer
+Oops, your answer is incorrect! Think carefully, then try again!
+-----
+FORCED    21
+
+23
+Level 2 Inside the 2nd room
+Well done! You are now in the second room! The first question is quite easy for you, isn't it? Now, here is the second question!
+
+Question: Which option is false about the "final" keyword in Java?
+
+I. A final method cannot be overridden in its subclasses.
+II. A final class cannot extend other classes.
+III. A final class cannot be extended.
+IV. A final method can be inherited.
+-----
+I       24
+II       25
+III       24
+IV       24
+SKIP       25
+
+24
+Level 2 2nd room wrong answer
+Oops, your answer is incorrect! Think carefully, then try again!
+-----
+FORCED    23
+
+25
+Level 2 Inside the 3rd room
+Good job! You are now in the third room! I hope the first two questions are easy for you. Now, here is the third question!
+
+Question: Which of the following declarations does not compile?
+
+I. double num1, int num2 = 0;
+II. int num1, num2;
+III. int num1, num2 = 0;
+IV. int num1 = 0, num2 = 0;
+-----
+I       27
+II       26
+III       26
+IV       26
+SKIP       27
+
+26
+Level 2 3rd room wrong answer
+Oops, your answer is incorrect! Think carefully, then try again!
+-----
+FORCED    25
+
+27
+Level 2 Inside the 4th room
+Well done! You are now in the 4th room! It seems that you know Java pretty well! Now, here is a question about Threads in Java:
+
+Question: Which of these statements is incorrect about Thread?
+
+I. start() method is used to begin execution of the thread
+II. run() method is used to begin execution of a thread before start() method in special cases
+III. A thread can be formed by implementing Runnable interface only
+IV. A thread can be formed by a class that extends Thread class
+-----
+I       28
+II       29
+III       28
+IV       28
+SKIP       29
+
+28
+Level 2 4th room wrong answer
+Oops, your answer is incorrect! Think carefully, then try again!
+-----
+FORCED    27
+
+29
+Level 2 Inside the 5th room
+Wow, you know Java pretty well! You are now in the 5th room and here is a code snippet question!
+
+Question: What will be the output of the following Java code snippet? (Codes can be found in the picture above)
+
+I. The snippet compiles and runs but does not print anything
+II. The snippet compiles, runs and prints 0
+III. The snippet compiles, runs and prints 1
+IV. The snippet does not compile
+-----
+I       211
+II       210
+III       210
+IV       210
+SKIP       211
+
+210
+Level 2 5th room wrong answer
+Oops, your answer is incorrect! Think carefully, then try again!
+-----
+FORCED    29
+
+211
+Level 2 Inside the 6th room
+Nice! You are now in the 6th room and here is another code snippet question!
+
+Question: What will be the output of the following Java code snippet? (Codes can be found in the picture above)
+
+I. [A, D, C]
+II. [A, B, C]
+III. [A, D, B, C]
+IV. [A, B, C, D]
+-----
+I       212
+II       212
+III       213
+IV       212
+SKIP       213
+
+212
+Level 2 6th room wrong answer
+Oops, your answer is incorrect! Think carefully, then try again!
+-----
+FORCED    211
+
+213
+Level 2 Inside the 7th room
+Good job! You are now in the 7th room! Now, let's see if you are familiar with JavaFX =)
+
+Question: The _____ layout arranges all the nodes in our application in a single horizontal row.
+
+I. VBox
+II. FlowPane
+III. HBox
+IV. TilePane
+-----
+I       214
+II       214
+III       215
+IV       214
+SKIP       215
+
+214
+Level 2 7th room wrong answer
+Oops, your answer is incorrect! Think carefully, then try again!
+-----
+FORCED    213
+
+215
+Level 2 Inside the 8th room
+Looks like you know JavaFX! You are now in the 7th room and here's another question related to JavaFX:
+
+Question: Which is the correct hierarchy in JavaFX application?
+
+I. Scene -> Scene Graph -> Stage
+II. Stage -> Scene -> Scene Graph
+III. Scene -> Stage-> Nodes
+IV. Scene -> Stage -> VBox
+-----
+I       216
+II       217
+III       216
+IV       216
+SKIP       217
+
+216
+Level 2 8th room wrong answer
+Oops, your answer is incorrect! Think carefully, then try again!
+-----
+FORCED    215
+
+217
+Level 2 Inside the 9th room
+Hold on! You are almost there~ You are now in the 9th room and here's the question:
+
+Question: Which method will called by launch() of Application class and what is the default argument of it in JavaFX?
+
+I. start(); Node
+II. run(); Scene
+III. start(); Stage
+IV. scene(); Stage
+-----
+I       218
+II       218
+III       219
+IV       218
+SKIP       219
+
+218
+Level 2 9th room wrong answer
+Oops, your answer is incorrect! Think carefully, then try again!
+-----
+FORCED    217
+
+219
+Level 2 Inside the 10th room
+Yoo~ Finally! You are now in the last room and here's the final question:
+
+Question: How many of the following methods compile? (Codes can be found in the picture above)
+
+I. None
+II. One
+III. Two
+IV. Three
+-----
+I       220
+II       220
+III       221
+IV       220
+SKIP       221
+
+220
+Level 2 10th room wrong answer
+Oops, your answer is incorrect! Think carefully, then try again!
+-----
+FORCED    219
+
+221
+Level 2 victory room
+Congratulations! You have successfully passed all my tests! Looks like I can safely leave the kitty in your care! Here you are, and goodbye, my dear Daisy! You can take her now!
+
+Now, do you want to move on to the third level of the game?
+
+A. YES!
+B. No, I want to exit the game.
+-----
+A       31
+B        0
+
+31
+Mysterious Hallway
+You decide to walk up some stairs and are now inside a hallway with two rooms. To the left of you is a bathroom and above you is a ladder that leads elsewhere. You weirdly hear the meows of another cat and a lot of music coming from the room across the hallway. There seems to be more mysteries in this secret house, but maybe you can find something useful in the other rooms before seeking the truth?
+-----
+FORWARD     35
+LEFT        32
+UP          34
+
+32
+Bathroom
+You are inside one of the bathrooms. There's music coming out of one of the cabinets. You can try to open it and see what you find, or choose to go back into the hallway.
+-----
+OUT      31
+OPEN     33
+
+33
+Bathroom Cabinet
+You opened the cabinet and found some music notes you can take, along with a few cat toys unsurprisingly. You note that there seems to be a lot of cat toys in this house for just one cat.
+-----
+OUT       31
+CLOSE     32
+
+34
+Attic
+Looks like the ladder leads to an attic! You found a music note sticking on the wall. Maybe you should take it with you before you investigate the music room.
+-----
+OUT      31
+DOWN     31
+
+35
+Music Room
+There indeed was another cat in this secret house! As you approach, it looks pretty frightened to be here yet doesn't let you pick it up. You see a piano inside of this musical room. Maybe playing a calming song will comfort this cat? You decide to play Twinkle Twinkle Little Star. A piano and sheet of music will pop up. Type in the music note letters (C, D, E, F, G, A, or B) until all notes of the song have been played. Note that if you play the wrong note, you will scare the cat and lose progress! Type PLAY to begin playing the piano.
+-----
+PLAY      36
+OUT       31
+
+36
+Music Room Play
+-----
+OUT       35
+WIN       37
+
+37
+Music Game Victory
+You successfully played Twinkle Twinkle Little Star and the cat now trusts you to take it home! You decide to name it Luna, but realize there might be more cats left to save. Before you know it, you hear a voice different from the programmer and everything goes dark!
+Now, do you want to move on to the last level of the game and see where you've been taken to?
+
+A. YES!
+B. No, I want to exit the game.
+-----
+PLAY     36
+A        40
+B        0
+
+40
+Level 4 Introduction
+Oh no! I, the deranged lady, have locked you in my basement. Don't worry, to get out, all you have to do is unlock that door! To navigate the rooms, look at the blue arrows (left, right, up down) or type picture to see the picture.
+You can also type commands (except for the locked door). Once you've collected all the objects, go to the padlock and type hint for a very special answer. Good luck escaping my lovely basement (you won't)!
+-----
+UP           41
+RIGHT        42
+PICTURE      43
+
+41
+Locked Door
+Input lock numbers:
+-----
+22969         50
+DOWN          40
+HINT          41
+
+42
+room 2
+You enter a new room and see two of my cats, a door, and my special painting <3
+-----
+RIGHT        48
+UP           45
+LEFT         40
+PICTURE      44
+
+43
+"Night Sky" painting
+Look at this picture. Do you see the colours? Can you count the stars for me?
+-----
+DOWN        40
+
+44
+EYE SEE YOU painting
+Look at my purple painting, EYE see something.
+-----
+DOWN        42
+
+45
+Room with a suitcase
+look 2 more cats! Also, a suitcase ahead.
+-----
+UP          46/BOXKEY
+UP          47
+DOWN        42
+
+46
+Open suitcase
+The paper coming from the box reads "the orange cat chased its tail 9 times before catching it!"
+-----
+DOWN        45
+
+47
+Closed suitcase
+Look! 2 MORE cats!
+-----
+DOWN        45
+
+48
+The window room
+A window? In a basement?! Pure Insanity. Look through it. Look at the green box as well...
+-----
+LEFT         42
+UP           49
+RIGHT        410/MAGNIFIER
+RIGHT        411
+
+49
+The window
+Count how many rectangles in the window.
+-----
+DOWN        48
+
+410
+The green box
+Do you see something in the green box? A number?
+-----
+LEFT        48
+
+411
+The green box closed
+You need something else to see the green box properly.
+-----
+LEFT        48
+OUT       35
+
+50
+Game Ending
+Congratulations! You have successfully finished the game and saved many stray cats! (You can click on the exit button or enter "EXIT" to exit the game~)
+-----
+EXIT       0
